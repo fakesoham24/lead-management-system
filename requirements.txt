@@ -1,4 +1,3 @@
-# Lead Management System - Dependencies
 fastapi==0.115.0
 uvicorn==0.30.6
 aiosqlite==0.20.0
@@ -6,15 +5,13 @@ python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 python-multipart==0.0.9
 bcrypt==4.0.1
-dotenv
+python-dotenv==1.2.1
 
 # Phase 2: Excel upload
 openpyxl==3.1.5
 
 # Phase 3: OCR
-pytesseract==0.3.13
-Pillow==11.1.0
+groq==1.1.2
 
 # Phase 4: Email + WhatsApp
 aiosmtplib==3.0.2
-twilio==9.4.3
